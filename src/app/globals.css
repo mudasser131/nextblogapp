@@ -16,11 +16,26 @@
 
 body {
   color: var(--foreground);
-  background: black;
-  color: rgb(231, 222, 222);
+ 
   
 }
+
+
+.theme{
+
+  transition: 1s all ease ;
+}
+.light{
+
+  background: white;
+  color: rgb(7, 7, 7);
+}
  
+.dark{
+
+  background: black;
+  color: rgb(231, 222, 222);
+}
 button {
 
   background: rgb(168, 235, 168);

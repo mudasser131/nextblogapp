@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white text-center py-6">
+    <footer className="  text-center py-6">
       <p className="text-sm mb-2">© {new Date().getFullYear()} MyApp. All rights reserved.</p>
       
       {/* Social Media Icons */}
