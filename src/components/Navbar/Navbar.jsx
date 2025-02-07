@@ -11,13 +11,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-2xl font-bold">MyApp!</h1>
+        
 
         {/* Desktop Menu */}
         <div className="hidden md:flex  gap-8 ">
           <Link href="/" className="hover:text-gray-300">Home</Link>
           <Link href="/about" className="hover:text-gray-300">About</Link>
           <Link href="/contact" className="hover:text-gray-300">Contact</Link>
-          <Link href="/blogs" className="hover:text-gray-300">blogs</Link>
+          <Link href="/blogs" className="hover:text-gray-300">blog</Link>
 
         </div>
 
