@@ -9,7 +9,7 @@ export default function HomeSection() {
     <h1 className="text-4xl md:text-6xl font-bold">
       Welcome to <span className="">MyApp</span>
     </h1>
-    <p className="text-lg text-gray-300">
+    <p className="text-lg ">
       Build amazing experiences with modern technologies. Start your journey today!
     </p>
     <button className="px-6 py-3 bg-green-500 hover:bg-green-600 rounded-md text-lg font-semibold">
