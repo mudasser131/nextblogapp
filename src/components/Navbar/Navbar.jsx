@@ -15,7 +15,6 @@ export default function Navbar() {
         <h1 className="text-2xl font-bold">
           <span className="text-green-400">Next</span>
           App</h1>
- main
 
         {/* Desktop Menu */}
         <div className="hidden md:flex  gap-8 ">
