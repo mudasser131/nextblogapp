@@ -11,7 +11,14 @@ export default function Navbar() {
     <nav className="  p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
+
         <h1 className="text-2xl font-bold">MyApp!</h1>
+
+
+        <h1 className="text-2xl font-bold">
+          <span className="text-green-400">Next</span>
+          App</h1>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex  gap-8 ">
