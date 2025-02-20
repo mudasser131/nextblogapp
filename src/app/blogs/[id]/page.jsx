@@ -14,8 +14,9 @@ async function getData(id) {
 }
 
 const Blogpost = async ({ params }) => {
-  const data = await getData(params.id); // Correctly access id
+  const { id } = await params; // ✅ Await params before accessing properties
 
+  const data = await getData(id);
   return (
     <div className="h-[80vh] flex items-center justify-center">
       <div className="max-w-2xl mx-auto shadow-md hover:shadow-xl transition-shadow duration-300 rounded-2xl p-8 border mt-8">
