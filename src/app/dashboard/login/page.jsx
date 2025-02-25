@@ -6,7 +6,7 @@ const Login = () => {
 
   return (
     <div className="flex min-h-[80vh] items-center justify-center px-4 pt-16">
-      <div className="w-full max-w-md p-6 rounded-lg shadow-md border">
+      <div className="w-full max-w-md p-6 rounded-lg shadow-md ">
         <h2 className="text-2xl font-bold text-center">Login</h2>
 
         <form className="mt-6 space-y-4">
@@ -43,7 +43,7 @@ const Login = () => {
           {/* Login Button */}
           <button
             type="submit"
-            className="w-full p-2 rounded-lg border"
+            className="w-full p-2 rounded-lg "
           >
             Sign In
           </button>
