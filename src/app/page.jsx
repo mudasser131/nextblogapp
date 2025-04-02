@@ -14,7 +14,7 @@ export default function HomeSection() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="md:w-1/2 space-y-6 text-center md:text-left"
       >
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-800 dark:text-white">
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900 dark:text-white">
           Welcome to{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
             MyApp

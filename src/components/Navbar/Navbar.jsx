@@ -39,7 +39,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col space-y-2 mt-2 bg-gray-800 p-4">
+        <div className="md:hidden flex flex-col space-y-2 mt-3 bg-gray-800 p-4">
           <Link href="/" className="hover:text-gray-300">Home</Link>
           <Link href="/about" className="hover:text-gray-300">About</Link>
           <Link href="/contact" className="hover:text-gray-300">Contact</Link>
