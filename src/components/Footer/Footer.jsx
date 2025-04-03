@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="w-full py-6 flex flex-col items-center border-t border-gray-300 mt-10">
-      <p className="text-sm md:text-base font-medium mb-3 tracking-wide">
+      <p className="text-sm md:text-base font-medium mb-4 tracking-wide">
         © {new Date().getFullYear()} MyApp. All rights reserved.
       </p>
       

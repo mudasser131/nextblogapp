@@ -21,7 +21,7 @@ export default function Navbar() {
 
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex  gap-8 ">
+        <div className="hidden md:flex  gap-9 ">
           <DarkModeToggle/>
           <Link href="/" className="hover:text-gray-300">Home</Link>
           <Link href="/about" className="hover:text-gray-300">About</Link>
