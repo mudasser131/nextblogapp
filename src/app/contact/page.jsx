@@ -12,7 +12,7 @@ const Contact = () => {
       </p>
 
       {/* Contact Form */}
-      <form className="w-full max-w-lg bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 space-y-6 mt-8 border border-gray-200 dark:border-gray-700">
+      <form className="w-full max-w-lg bg-white dark:bg-gray-850 shadow-lg rounded-xl p-8 space-y-6 mt-8 border border-gray-200 dark:border-gray-700">
         {/* Name */}
         <div className="space-y-2">
           <label htmlFor="name" className="block text-lg font-medium text-gray-700 dark:text-gray-300">
