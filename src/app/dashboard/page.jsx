@@ -21,7 +21,7 @@ const { data, error, isLoading } = useSWR(`https://jsonplaceholder.typicode.com/
 
   return (
     <div>
-      <div>Dashboard!</div>
+      <div className=' text-3xl  ' >Dashboard!</div>
     </div>
   )
 }
